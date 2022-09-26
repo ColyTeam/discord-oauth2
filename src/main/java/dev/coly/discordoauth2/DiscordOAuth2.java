@@ -71,7 +71,7 @@ public class DiscordOAuth2 {
                 "response_type=code" +
                 "&client_id=" + clientId +
                 "&redirect_url=" + redirectUrl +
-                (state != null && !state.isEmpty() ? "&state=" + String.join("%20", scopes) : "") +
+                (state != null && !state.isEmpty() ? "&state=" + state : "") +
                 "&scope=" + String.join("%20", scopes);
     }
 
