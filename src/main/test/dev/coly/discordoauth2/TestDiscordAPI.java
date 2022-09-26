@@ -1,6 +1,5 @@
-package dev.coly.discordoauth2.test;
+package dev.coly.discordoauth2;
 
-import dev.coly.discordoauth2.DiscordAPI;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
