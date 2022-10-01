@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Guild {
 
-    private String id;
-    private String name;
-    private String icon;
-    private boolean owner;
-    private int permissions;
-    private List<String> features;
+    public String id;
+    public String name;
+    public String icon;
+    public boolean owner;
+    public int permissions;
+    public List<String> features;
 
 }

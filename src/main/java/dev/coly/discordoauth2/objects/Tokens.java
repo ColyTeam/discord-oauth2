@@ -5,13 +5,13 @@ import com.google.gson.annotations.SerializedName;
 public class Tokens {
 
     @SerializedName("access_token")
-    private String accessToken;
+    public String accessToken;
     @SerializedName("token_type")
-    private String tokenType;
+    public String tokenType;
     @SerializedName("expires_in")
-    private int expiresIn;
+    public int expiresIn;
     @SerializedName("refresh_token")
-    private String refreshToken;
-    private String scope;
+    public String refreshToken;
+    public String scope;
 
 }

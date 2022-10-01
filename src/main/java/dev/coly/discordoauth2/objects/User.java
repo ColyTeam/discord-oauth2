@@ -4,19 +4,19 @@ import com.google.gson.annotations.SerializedName;
 
 public class User {
 
-    private String id;
-    private String username;
-    private String avatar;
-    private String discriminator;
-    private boolean bot;
-    private boolean system;
+    public String id;
+    public String username;
+    public String avatar;
+    public String discriminator;
+    public boolean bot;
+    public boolean system;
     @SerializedName("mfa_enabled")
-    private boolean mfaEnabled;
-    private String locale;
-    private boolean verified;
-    private String email;
-    private long flags;
+    public boolean mfaEnabled;
+    public String locale;
+    public boolean verified;
+    public String email;
+    public long flags;
     @SerializedName("premium_type")
-    private int premiumType;
+    public int premiumType;
 
 }
