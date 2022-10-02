@@ -11,4 +11,27 @@ public class Guild {
     private int permissions;
     private List<String> features;
 
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public boolean isOwner() {
+        return owner;
+    }
+
+    public int getPermissions() {
+        return permissions;
+    }
+
+    public List<String> getFeatures() {
+        return features;
+    }
 }
